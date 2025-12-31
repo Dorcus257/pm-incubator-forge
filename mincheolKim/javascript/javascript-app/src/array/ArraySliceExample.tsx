@@ -2,6 +2,9 @@
 export const ArraySliceExample = () => {
     let number_array: number[] = [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
 
+    // 아래 코드는 위의 number_array에서
+    // 3번 인덱스 - 7번 비포함 인덱스까지 정보를 잘라서 가져왔음
+    // (a, b) => a 이상 b 미만
     let sliced_array: number[] = 
         number_array.slice(3, 7)
 

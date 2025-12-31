@@ -1,5 +1,6 @@
 import './App.css'
 import { ArraySliceExample } from './array/ArraySliceExample'
+import { ArraySpliceExample } from './array/ArraySpliceExample'
 import { ControlFlowIf } from './control_flow/ControlFlowIf'
 import { VariableAndDataTypes } from './data_type/VariableAndDataTypes'
 import { LogicalOperationExample } from './logical_operation/LogicalOperationExample'
@@ -31,6 +32,7 @@ function App() {
         <MapReduceExample/>
         <MapFilterExample/>
         <ArraySliceExample/>
+        <ArraySpliceExample/>
       </div>
     </>
   )
